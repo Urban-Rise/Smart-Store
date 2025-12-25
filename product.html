@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Details</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <script src="scripts/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Product Page</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="catalog.html">Catalog</a> |
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Sample Product</h2>
+    <img src="assets/images/placeholder.txt" alt="Sample Product Image" style="width:200px;height:auto;border:1px solid #ccc;" />
+    
+    <table border="1" cellpadding="8" cellspacing="0" style="margin-top:20px;">
+      <tr><th>Specification</th><th>Details</th></tr>
+      <tr><td>Name</td><td>Eco-Friendly 3D Printer</td></tr>
+      <tr><td>Price</td><td></td></tr>
+      <tr><td>Material Support</td><td>PLA, ABS, Carbon Fiber</td></tr>
+      <tr><td>Build Volume</td><td>220 x 220 x 250 mm</td></tr>
+      <tr><td>Warranty</td><td>2 Years</td></tr>
+    </table>
+
+    <button onclick="addToCart()" style="margin-top:20px;padding:10px 20px;background:#4f6cff;color:#fff;border:none;cursor:pointer;">
+      Add to Cart 🛒
+    </button>
+  </main>
+  <footer>
+    <p>&copy; 2025 Smart-Store | Powered by MABA</p>
+  </footer>
+</body>
+</html>
